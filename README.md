@@ -43,7 +43,7 @@ src/
 ## 🧠 4. Análisis del proyecto
 
 ### 🔹 1. ¿Cómo se aplica el flujo de datos unidireccional?
-React implementa un **flujo de datos de arriba hacia abajo (top-down)**.  
+React implementa un **flujo de datos de arriba hasta abajo (top-down)**.  
 El componente `App` actúa como **padre**, pasando información a los hijos (`Header`, `Card`, `Counter`, etc.) mediante **props**.  
 Los hijos **nunca modifican directamente** los datos del padre; en su lugar, comunican cambios a través de funciones callback (si fuera necesario).  
 Este modelo mantiene la UI predecible, ya que **el estado vive en un solo lugar** y la interfaz se actualiza automáticamente según esos datos.
